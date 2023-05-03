@@ -1,85 +1,83 @@
-{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.root {
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-    background-color: black;
-    color: white;
-    height: 60px;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: right;
-    padding: 10px 10px
-}
-
-.hero {
-    background-color: #6e97e9;
-    background-image:url(./images/premium_dancer.png);
-    background-position-x: right;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 200px;
-    padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.hero2-1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.subtitle {
-font-size: 32px;
-}
-
-button .planes-link{
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #37cd3c;
-color: white;
-text-decoration: none;
-text-align: center;
-text transform: none;
-height: 40px;
-width: 200px;
-border-radius: 20px;
-padding: 0px;
-margin: 0px;
-}
-
-
-.menu-nav {
-    margin-top:  10px;
-    padding: 20px;
-    height: 70px;
-    list-style-type: none;
-    background-color: black;
-    color: white
-    
-}
-
-.menu-nav a {
-    width: 100px;
-    color: white;    
-    text-align: right;
-    padding: 5px 20px;
-    display: block;
+header {
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
 }
 
 .menu-nav li {
-    float: right;
-    margin-left: 150px;
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 15px
+  width: 100px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.hero {
+  background-color: #6e97e9;
+  background-image: url(./images/premium_dancer.png);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  height: 500px;
+  padding-left: 15px;
+  padding-top: 200px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 300%;
+}
+
+h1 {
+  font-size: 650%;
+  margin-top: -70px;
+}
+
+.hero2-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subtitle {
+  font-size: 200%;
+  margin-top: -70px;
+}
+
+.button {
+  background-color:lime;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  margin-bottom: 60px;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
 }
