@@ -1,0 +1,85 @@
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.root {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: right;
+    padding: 10px 10px
+}
+
+.hero {
+    background-color: #6e97e9;
+    background-image:url(./images/premium_dancer.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero2-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.subtitle {
+font-size: 32px;
+}
+
+button .planes-link{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #37cd3c;
+color: white;
+text-decoration: none;
+text-align: center;
+text transform: none;
+height: 40px;
+width: 200px;
+border-radius: 20px;
+padding: 0px;
+margin: 0px;
+}
+
+
+.menu-nav {
+    margin-top:  10px;
+    padding: 20px;
+    height: 70px;
+    list-style-type: none;
+    background-color: black;
+    color: white
+    
+}
+
+.menu-nav a {
+    width: 100px;
+    color: white;    
+    text-align: right;
+    padding: 5px 20px;
+    display: block;
+}
+
+.menu-nav li {
+    float: right;
+    margin-left: 150px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 15px
+}
