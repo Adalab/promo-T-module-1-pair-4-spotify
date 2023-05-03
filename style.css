@@ -14,20 +14,19 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   position: fixed;
 }
 
 .menu-nav li {
-  width: 100px;
   color: white;
   display: inline-block;
   text-align: center;
+  width: 100px;
 }
 
-.menu-nav ul {
-  width: 100%;
-  display: flex;
-  justify-content: end;
+.menu-nav {
+padding-right: 40px;
 }
 
 .hero {
@@ -64,7 +63,7 @@ h1 {
 }
 
 .button {
-  background-color:lime;
+  background-color:rgb(44, 200, 44);
   height: 50px;
   width: 200px;
   border-radius: 20px;
@@ -75,9 +74,15 @@ h1 {
   align-items: center;
   margin-top: 75px;
   margin-bottom: 60px;
+  
 }
 
 .button a {
   text-decoration: none;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
