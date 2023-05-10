@@ -1,0 +1,151 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  header {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+  }
+  
+  .menu-nav li {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .menu-nav {
+  padding-right: 40px;
+  }
+  
+  .hero {
+    background-color: #6e97e9;
+    background-image: url('../images/premium_dancer.png');
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+    padding-left: 15px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 300%;
+  }
+  
+  h1 {
+    font-size: 650%;
+    margin-top: -70px;
+  }
+  
+  .hero2-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .hero2 {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-left: 25px;
+    row-gap: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .hero2_box {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .hero2_box-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  }
+  
+  .hero2_box-description h4 {
+  padding: 0;
+  margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 200%;
+    margin-top: -70px;
+  }
+  
+  .button {
+    background-color:rgb(44, 200, 44);
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 60px;
+    
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  footer {
+    background-color: black;
+    height: 100px;
+    margin-bottom:0 ;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+  
+  .footer-info {
+    display: flex;
+    width: 50vh;
+    justify-content: space-between;
+    list-style: none;
+    align-items: end;
+  }
+  
+  .footer-end {
+      list-style: none;
+      text-align: right;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      
+    }
+  
+      .footer-end li {
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        
+      }
+  
